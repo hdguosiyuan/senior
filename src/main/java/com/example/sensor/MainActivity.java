@@ -68,7 +68,10 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
             case R.id.grid_view:
                 startActivity(new Intent(this,GridViewActivity.class));
                 break;
-            default:
+            case R.id.viewpage:
+                startActivity(new Intent(this,ViewPageActivity.class));
+                break;
+                default:
                 break;
         }
     }
