@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">sensor</string>
+    <string name="earth">"地球"</string>
+    <string name="earth_desc">"地球是太阳系八大行星之一，排行第三，也是太阳系中直径、质量和密度最大的类地行星，距离太阳1.5亿公里"</string>
+    <string name="shuixing">"水星"</string>
+    <string name="shuixing_desc">"水星是太阳系八大行星最内侧也是最小的一颗行星，也是离太阳最近的行星"</string>
+    <string name="jinxing">"金星"</string>
+    <string name="jinxing_desc">"金星是太阳系八大行星之一，排行第二，距离太阳0.725天文单位"</string>
+    <string name="huoxing">"火星"</string>
+    <string name="huoxing_desc">"火星是太阳系八大行星之一，排行第四，属于类地行星，直径约为地球的53%"</string>
+    <string name="muxing">"木星"</string>
+    <string name="muxing_desc">"木星是太阳系八大行星中体积最大、自转最快的行星，排行第五。它的质量为太阳的千分之一，但为太阳系中其它七大行星质量总和的2.5倍"</string>
+    <string name="tuxing">"土星"</string>
+    <string name="tuxing_desc">"土星为太阳系八大行星之一，排行第六，体积仅次于木星"</string>
+</resources>
