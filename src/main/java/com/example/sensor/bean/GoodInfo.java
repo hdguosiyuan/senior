@@ -7,4 +7,5 @@ public class GoodInfo {
     public String desc;
     public float price;
     public String thumb_path;
+    public String pic_path;
 }
