@@ -37,14 +37,15 @@
             android:id="@+id/base_adapter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BASEADAPTER"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:text="BASEADAPTER" />
+
         <Button
             android:id="@+id/grid_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GRIDVIEW"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:text="GRIDVIEW" />
     </LinearLayout>
 
     <LinearLayout
@@ -56,9 +57,28 @@
             android:id="@+id/viewpage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="VIEW_PAGE"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:text="VIEW_PAGE" />
 
+        <Button
+            android:id="@+id/bt_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="TABSTRIP" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/vp_launch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Launch" />
     </LinearLayout>
 
 </LinearLayout>

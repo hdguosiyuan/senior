@@ -22,10 +22,11 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String a = System.getProperty("ro.hsm.asset.num","0");
+        String a = System.getProperty("ro.hsm.asset.num", "0");
         calendar = Calendar.getInstance();
     }
-    public  String getSystemProperty(String name, String defaultValue) {
+
+    public String getSystemProperty(String name, String defaultValue) {
         @SuppressWarnings("rawtypes")
         Class SystemProperties;
         try {
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
             return (String) get.invoke(SystemProperties, params);
         } catch (Exception e) {
-            Log.d("gsy","e= "+e);
+            Log.d("gsy", "e= " + e);
             return null;
         }
     }
@@ -62,16 +63,22 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 showTimePick();
                 break;
             case R.id.base_adapter:
-                Log.d("wlw","onClick");
-                this.startActivity(new Intent(this,ListViewActivity.class));
+                Log.d("wlw", "onClick");
+                this.startActivity(new Intent(this, ListViewActivity.class));
                 break;
             case R.id.grid_view:
-                startActivity(new Intent(this,GridViewActivity.class));
+                startActivity(new Intent(this, GridViewActivity.class));
                 break;
             case R.id.viewpage:
-                startActivity(new Intent(this,ViewPageActivity.class));
+                startActivity(new Intent(this, ViewPageActivity.class));
                 break;
-                default:
+            case R.id.bt_tab:
+                startActivity(new Intent(this, PageTabStripActivity.class));
+                break;
+            case R.id.vp_launch:
+                startActivity(new Intent(this, LaunchSimpleActivity.class));
+                break;
+            default:
                 break;
         }
     }

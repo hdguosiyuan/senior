@@ -20,7 +20,12 @@
         </activity>
         <activity android:name=".ListViewActivity" />
         <activity android:name=".GridViewActivity" />
-        <activity android:name=".ViewPageActivity"></activity>
+        <activity android:name=".ViewPageActivity" />
+        <activity android:name=".PageTabStripActivity" />
+        <activity
+            android:name=".LaunchSimpleActivity"
+            android:theme="@style/AppCompatTheme" />
+        <activity android:name=".FragmentStaticActivity"></activity>
     </application>
 
 </manifest>
