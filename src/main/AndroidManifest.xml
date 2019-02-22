@@ -25,7 +25,10 @@
         <activity
             android:name=".LaunchSimpleActivity"
             android:theme="@style/AppCompatTheme" />
-        <activity android:name=".FragmentStaticActivity"></activity>
+        <activity android:name=".FragmentStaticActivity" />
+        <activity
+            android:name=".FragmentDynamicActivity"
+            android:theme="@style/AppCompatTheme"></activity>
     </application>
 
 </manifest>

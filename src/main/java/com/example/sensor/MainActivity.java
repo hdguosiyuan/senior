@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.DatePicker;
 import android.widget.TimePicker;
 
+import com.example.sensor.fragment.StaticFragment;
+
 import java.lang.reflect.Method;
 import java.util.Calendar;
 
@@ -77,6 +79,12 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 break;
             case R.id.vp_launch:
                 startActivity(new Intent(this, LaunchSimpleActivity.class));
+                break;
+            case R.id.static_fragment:
+                startActivity(new Intent(this, FragmentStaticActivity.class));
+                break;
+            case R.id.dynamic_fragment:
+                startActivity(new Intent(this, FragmentDynamicActivity.class));
                 break;
             default:
                 break;

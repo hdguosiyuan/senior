@@ -12,4 +12,7 @@
     <string name="muxing_desc">"木星是太阳系八大行星中体积最大、自转最快的行星，排行第五。它的质量为太阳的千分之一，但为太阳系中其它七大行星质量总和的2.5倍"</string>
     <string name="tuxing">"土星"</string>
     <string name="tuxing_desc">"土星为太阳系八大行星之一，排行第六，体积仅次于木星"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

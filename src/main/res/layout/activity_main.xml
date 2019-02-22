@@ -79,6 +79,20 @@
             android:layout_height="wrap_content"
             android:onClick="onClick"
             android:text="Launch" />
+
+        <Button
+            android:id="@+id/static_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="StaticFragment" />
+
+        <Button
+            android:id="@+id/dynamic_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="DynamicFragment" />
     </LinearLayout>
 
 </LinearLayout>
